@@ -1,7 +1,7 @@
 body{
     background-image: url(https://i.pinimg.com/originals/81/af/2f/81af2fe82828802ceb642f5a210b0569.jpg);
    background-attachment: fixed;
-   background-repeat: repeat-x;
+   background-repeat:no-repeat;
    }
    div{
    margin-top: 5px;
