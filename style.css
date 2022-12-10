@@ -1,0 +1,76 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/81/af/2f/81af2fe82828802ceb642f5a210b0569.jpg);
+   background-attachment: fixed;
+   background-repeat: repeat-x;
+   }
+   div{
+   margin-top: 5px;
+   border-radius: 100%;
+   clear: right;
+   }
+   .car{
+       background-color: palevioletred;
+       top: 0;
+       right: 0;
+       height: 70px;
+       width: 200px;
+       position: relative;
+       justify-content: space-between;
+       background-image: url(https://www.realmajor.net/wp-content/uploads/2021/05/21_savage_spiral-video.jpg);
+       background-size: cover;
+       animation-name: move;
+       animation-duration: 4s;
+       animation:linear;
+       animation-fill-mode: forwards;
+       -webkit-animation: linear;
+       -webkit-animation-name:run ;
+       -webkit-animation-duration: 4s;
+       -webkit-animation-iteration-count: 1;
+       -webkit-animation-fill-mode: forwards;
+   }
+   
+   .wheel1{
+       width: 35px;
+       height: 35px;
+       background:black;
+       border-radius: 50%;
+       position: absolute;
+       top: 50px;
+       right: 10px;
+       background-image: url(https://resources.tidal.com/images/99ce5f5d/b018/473e/a007/6dedf8ffde72/750x750.jpg);
+       background-size: cover;
+   }
+   
+   .wheel2{
+       width: 35px;
+       height: 35px;
+       background:black;
+       border-radius: 50%;
+       position: absolute;
+       top: 50px;
+       left: 10px;
+       background-image: url(https://resources.tidal.com/images/99ce5f5d/b018/473e/a007/6dedf8ffde72/750x750.jpg);
+       background-size: cover;
+   }
+   .car:hover {
+   animation-delay: 3s;
+   }
+   @keyframes run {
+       from {
+           left: -50%;
+       }
+   
+       to {
+           left: calc(100vw - 250px);
+       }
+   }
+   
+   @-webkit-keyframes run {
+       from {
+           left: -50%;
+       }
+   
+       to {
+           left: calc(100vw - 250px);
+       }
+   }
